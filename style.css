@@ -8,12 +8,23 @@ header{
     justify-content: center;
 }
 
+.header_top{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
 .box_1{
     width: 500px;
     height: 50px;
-    background-color: rgb(184, 177, 177);
-    margin-top: 165px;
-    opacity: 80%;    
+    background-color: rgb(123, 169, 177);
+    left: 10%;
+    opacity: 80%; 
+    margin: 15px;   
+}
+
+nav{
+    height: 100px;
 }
 
 svg{
@@ -22,9 +33,10 @@ svg{
 
 .text-head{
     position:absolute;
-    top: 15%;
-    left: 25%;
+    display: flex;
+    left: 42%;
     font-size: 2em ;
+    top: 5%;
 }
 
 ul{
@@ -159,3 +171,11 @@ ul.social{
     justify-content: center;
     color: coral;
 }
+
+.text_2_1{
+    margin: 65px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+
