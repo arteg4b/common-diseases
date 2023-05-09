@@ -1,0 +1,154 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    gap: 15px;
+}
+
+.grid-1{
+    grid-column: 1/3;
+}
+
+.grid-2{
+    grid-column: 3/5;
+}
+
+.grid-4{
+    grid-column: 2/4;
+}
+
+header{
+    display: flex;
+    background-image:url(https://www.stgeorges.nhs.uk/wp-content/uploads/2013/04/AWA2013008M0709-0061-1024x715.jpg);
+    background-size: cover;
+    height:57vh;
+    width:100% ;
+    position: relative;
+    justify-content: center;
+}
+
+.box_1{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(184, 177, 177);
+    margin-top: 165px;
+    opacity: 80%;    
+}
+
+svg{
+    margin: 4px;
+}
+
+.text-head{
+    position:absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 2em ;
+}
+
+ul{
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+}
+a{  
+    text-decoration: none;/*знімає рисочку під словом*/
+    color:rgb(80, 179, 255);
+    background-color: rgb(198, 242, 117);
+    padding: 15px 40px;/*Робить рамочку навколо тексту*/
+    border: 2px solid salmon;
+}
+li{
+    margin: 10px ;
+}
+nav{
+    margin-top: 8.5%;
+    
+}
+a:hover{
+    background-color: darkcyan;
+}
+
+.hospital{
+    margin: 40px 0 0 40px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 162, 255);
+}
+
+.vstup{
+    padding: 10px;
+     display: flex;
+}
+
+.hospital:hover{
+    box-shadow:0px 0px 25px rgb(0, 162, 255) ;
+    transition: 0.7s;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+.container_soc{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);
+    width:40% ;
+    height: 150px;
+}
+
+.social{
+    display: flex;
+}
+
+.social_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+    justify-content:center ;
+    text-align: center;
+    color: antiquewhite;
+    margin: 17px;
+}
+ul.social{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 25px ;
+    padding:20px;
+}
+
+.facebook:hover{
+    border-color: rgb(182, 72, 72);
+    box-shadow:0px 0px 25px rgb(182, 72, 72) ;
+    transition: 0.5s;
+}
+.instagram:hover{
+    border-color: rgb(175, 182, 72);
+    box-shadow:0px 0px 25px rgb(175, 182, 72) ;
+    transition: 0.5s;
+}
+.twitter:hover{
+    border-color: rgb(72, 133, 182);
+    box-shadow:0px 0px 25px rgb(72, 133, 182) ;
+    transition: 0.5s;
+}
+.youtube:hover{
+    border-color: rgb(144, 72, 182);
+    box-shadow:0px 0px 25px rgb(144, 72, 182) ;
+    transition: 0.5s;
+}
+.github:hover{
+    border-color: rgb(72, 207, 97, 0.979);
+    box-shadow:0px 0px 25px rgb(72, 207, 97, 0.979) ;
+    transition: 0.5s;
+}
