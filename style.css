@@ -8,7 +8,7 @@ header{
     justify-content: center;
 }
 
-.header_top{
+.header__top{
     display: flex;
     height: 100px;
     width: 100%;
@@ -54,10 +54,7 @@ a{
 li{
     margin: 10px ;
 }
-nav{
-    margin-top: 8.5%;
-    
-}
+
 a:hover{
     background-color: darkcyan;
 }
